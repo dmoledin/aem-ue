@@ -11,7 +11,7 @@
 // node clearCache.js reindex /docs/*
 
 require('dotenv').config();
-const axios = require('axios');
+import axios from 'axios';
 
 const ORG = 'knennigtri';
 const REPO = 'aem-ue';
