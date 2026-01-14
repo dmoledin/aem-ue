@@ -7,11 +7,11 @@
 // Then run the script using: npm run clear-cache or npm run reindex
 //
 // Optional path parameter (defaults to /*):
-// node clearCache.js cache /specific/path
+// node clearCache.js cache /specific/paths
 // node clearCache.js reindex /docs/*
 
 require('dotenv').config();
-import axios from 'axios';
+const axios = require('axios');
 
 const ORG = 'knennigtri';
 const REPO = 'aem-ue';
